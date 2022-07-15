@@ -82,6 +82,9 @@
                                 <button type="submit" class="btn btn-success">
                                     <i class="fa-solid fa-save"></i> {{ __('Save') }}
                                 </button>
+                                <button type="reset" class="btn btn-secondary">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i> {{ __('Reset') }}
+                                </button>
                             </div>
                         </div>
                     </form>
