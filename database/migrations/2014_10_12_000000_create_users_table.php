@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('password');
             $table->tinyInteger('type')->default(0); /* Admin:0, Student:1, Mentor:2 */
             $table->rememberToken();
-            $table->bigInteger(20);/* Created by user*/
+            $table->bigInteger('created_by')->nullable();/* Created by user*/
             $table->timestamps();
         });
     }
